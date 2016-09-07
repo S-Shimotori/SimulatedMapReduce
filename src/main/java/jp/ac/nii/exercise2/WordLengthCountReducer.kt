@@ -9,10 +9,6 @@ import jp.ac.nii.mapreduceframework.Reducer
 
 class WordLengthCountReducer: Reducer<Int, Int, Int, Int>() {
     override fun reduce(key: Int, values: MutableIterable<Int>, context: Context) {
-        var sum = 0
-        for (value in values) {
-            sum += value
-        }
-        context.write(key, sum)
+        context.write(key, values.sum())
     }
 }

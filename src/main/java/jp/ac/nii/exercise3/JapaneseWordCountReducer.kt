@@ -9,10 +9,6 @@ import jp.ac.nii.mapreduceframework.Reducer
 
 class JapaneseWordCountReducer : Reducer<String, Int, String, Int>() {
     override fun reduce(key: String?, values: MutableIterable<Int>, context: Context) {
-        var sum = 0
-        for (value in values) {
-            sum += value
-        }
-        context.write(key, sum)
+        context.write(key, values.sum())
     }
 }
