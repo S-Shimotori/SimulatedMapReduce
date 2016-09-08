@@ -3,10 +3,10 @@
 ## What Is This
 
 This repository provides a Maven project as a pre-assignment for Sakamoto's lectures about Hadoop (e.g. [BIGCHA](http://bigcha.net/) and TopSE).
-The project includes a simulated Hadoop MapReduce framework working on a pure ~~Java environment~~. __JavaなんかやめてKotlin使おうぜ！__
+The project includes a simulated Hadoop MapReduce framework working on a pure ~~Java environment~~. __JavaなんかやめてKotlin使おうぜ！__  
 Note that this simulated framework has some differences from the official framework.
 
-Please clone this repository and import it as a Maven project into ~~Eclipse~~ (or __Intellij IDEA__). ←絶対Intellij使おうな！
+Please clone this repository and import it as a Maven project into ~~Eclipse~~ (or __Intellij IDEA__). ←絶対Intellij使おうな！  
 You should see the detailed instructions in the Excercise[1-6]Main classes.
 
 ## How to Import Excercise Projects
