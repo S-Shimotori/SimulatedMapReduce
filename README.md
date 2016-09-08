@@ -3,16 +3,16 @@
 ## What Is This
 
 This repository provides a Maven project as a pre-assignment for Sakamoto's lectures about Hadoop (e.g. [BIGCHA](http://bigcha.net/) and TopSE).
-The project includes a simulated Hadoop MapReduce framework working on a pure Java environment.
+The project includes a simulated Hadoop MapReduce framework working on a pure ~~Java environment~~. __JavaなんかやめてKotlin使おうぜ！__
 Note that this simulated framework has some differences from the official framework.
 
-Please clone this repository and import it as a Maven project into Eclipse (or Intellij IDEA).
+Please clone this repository and import it as a Maven project into ~~Eclipse~~ (or __Intellij IDEA__). ←絶対Intellij使おうな！
 You should see the detailed instructions in the Excercise[1-6]Main classes.
 
 ## How to Import Excercise Projects
 
-1. Run [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/marsr)
-2. File > Import > Maven > Existing Maven Projects
+1. Run [~~Eclipse IDE for Java Developers~~](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/marsr) [IntelliJ IDEA the Java IDE](https://www.jetbrains.com/idea/)
+2. ~~File > Import > Maven > Existing Maven Projects~~ File > New > Project from Existing Sources... で後はテキトーにやっとけ！
 3. Set your directory which is cloned from GitHub as Root Directory
 4. Select all projects
 5. Push Finish
@@ -23,6 +23,8 @@ If you face a problem caused by the inconsistency between the required JDK versi
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
 ```
+
+__Kotlinの設定も必要だろ！__
 
 ## Excercises
 
